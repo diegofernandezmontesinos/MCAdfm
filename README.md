@@ -12,3 +12,5 @@ Currently, two official plugins are available:
 
 npm install react-slider
 npm add @babel/runtime
+
+![Uploading imagen.png…]()
