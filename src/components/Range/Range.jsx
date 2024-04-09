@@ -53,9 +53,11 @@ function Range(props) {
               <Step />
             </>
           )}
-          <Link to={"/"}>
-            <button>Return to home</button>
-          </Link>
+          <div className="returnButtonContainer">
+            <Link to={"/"}>
+              <button className="returnButton">Return to home</button>
+            </Link>
+          </div>
         </div>
       </div>
     </>
