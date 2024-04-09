@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "./Range.css";
 import Slider from "react-slider";
 
-function Range() {
-  const MIN = 100;
+function Range(variant) {
+  const MIN = 0;
   const MAX = 15000;
   const [values, setValues] = useState([MIN, MAX]);
+  const [thumbGrabbed, setThumbGrabbed] = useState(false);
 
-  console.log(values);
   return (
     <>
       <div className="app">
@@ -21,9 +21,10 @@ function Range() {
             className={"slider"}
             onChange={setValues}
             value={values}
-            thumbClassName="thumb"
+            thumbClassName={thumbGrabbed ? "thumb" : "thumbGrabbed"}
             min={MIN}
             max={MAX}
+            onClick={() => setThumbGrabbed(!thumbGrabbed)}
           />
         </div>
       </div>
