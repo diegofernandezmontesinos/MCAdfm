@@ -37,11 +37,8 @@ function Range(props) {
             <>
               <ReactSlider
                 className="vertical-slider"
-                // markClassName="example-mark"
-                // trackClassName="example-track"
                 defaultValue={0}
                 thumbClassName={thumbGrabbed ? "thumb" : "thumbGrabbed"}
-                // value={props.currentIndex}
                 min={0}
                 max={4}
                 marks
