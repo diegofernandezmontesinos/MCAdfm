@@ -6,6 +6,26 @@
   background: #cdd9ed;
 }
 
+.slider {
+  width: 100%;
+  height: 2px;
+  background-color: #cdd9ed;
+  margin-top: 60px;
+}
+
+.thumb {
+  width: 23px;
+  height: 23px;
+  cursor: grab;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #275efe;
+  top: -10px;
+}
+.track-1 {
+    background-color: #275efe;
+}
+
 .box {
   width: 100%;
   max-width: 320px;
@@ -16,21 +36,20 @@
 }
 
 .value {
-   margin: 0;
-   font-weight: 500;
-   color: #275efe;
+  margin: 0;
+  font-weight: 500;
+  color: #275efe;
 }
 
 small {
-    font-size: 14px;
-    margin-top: 8px;
-    display: block;
-    color: #99a3ba;
+  font-size: 14px;
+  margin-top: 8px;
+  display: block;
+  color: #99a3ba;
 }
 h3 {
-    font-size: 32px;
-    font-weight: 700;
-    margin: 0 0 20px 0;
-    color: #3f4656;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: #3f4656;
 }
-

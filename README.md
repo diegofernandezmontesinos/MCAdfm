@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # dependecies
 
 npm install react-slider
+npm add @babel/runtime
