@@ -1,0 +1,12 @@
+.steps-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.steps-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21%;
+}

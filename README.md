@@ -13,5 +13,6 @@ Currently, two official plugins are available:
 npm install react-slider
 npm add @babel/runtime
 npm i -D react-router-dom
+npm install semantic-ui
 
 ![Uploading imagen.png…]()

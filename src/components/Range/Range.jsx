@@ -3,6 +3,8 @@ import "./Range.css";
 import Slider from "react-slider";
 import { Parameter } from "../../share/typeExercise";
 import ReactSlider from "react-slider";
+import Step from "../Steps/Steps";
+import { Link } from "react-router-dom";
 
 function Range(props) {
   const MIN = 0;
@@ -35,26 +37,25 @@ function Range(props) {
             <>
               <ReactSlider
                 className="vertical-slider"
-                markClassName="example-mark"
-                // onChange={onChange}
-                trackClassName="example-track"
+                // markClassName="example-mark"
+                // trackClassName="example-track"
                 defaultValue={0}
-                value={props.currentIndex}
+                thumbClassName={thumbGrabbed ? "thumb" : "thumbGrabbed"}
+                // value={props.currentIndex}
                 min={0}
                 max={4}
                 marks
                 renderMark={(props) => {
-                  if (props.key < props.currentIndex) {
-                    props.className = "example-mark example-mark-completed";
-                  } else if (props.key === props.currentIndex) {
-                    props.className = "example-mark example-mark-active";
-                  }
                   return <span {...props} />;
                 }}
                 orientation="horizontal"
               />
+              <Step />
             </>
           )}
+          <Link to={"/"}>
+            <button>Return to home</button>
+          </Link>
         </div>
       </div>
     </>
