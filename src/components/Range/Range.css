@@ -15,10 +15,17 @@
   box-shadow: 0 1px 4px rgba(18, 22, 33, 0.12);
 }
 
-.values {
+.value {
    margin: 0;
    font-weight: 500;
    color: #275efe;
+}
+
+small {
+    font-size: 14px;
+    margin-top: 8px;
+    display: block;
+    color: #99a3ba;
 }
 h3 {
     font-size: 32px;
