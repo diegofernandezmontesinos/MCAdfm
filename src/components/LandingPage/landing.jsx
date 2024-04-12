@@ -31,6 +31,23 @@ function Landing() {
             </Link>
           </div>
         </div>
+        <div className="landingPageContainer">
+          <div className="textContainer">Select an option:</div>
+          <div className="landingPageButtonContainer">
+            <Link to={"/sliderInputExercise1"}>
+              <button className="landingpageButton">
+                {" "}
+                Go to Slider Exersice 1
+              </button>
+            </Link>
+            <Link to={"/sliderInputExercise2"}>
+              <button className="landingpageButton">
+                {" "}
+                Go to Slider Exersice 2
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
     </>
   );
